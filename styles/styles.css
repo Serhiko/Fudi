@@ -1,0 +1,396 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.reward{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+}
+
+.banner {
+    background-image: url(../images/banner_image.png);
+    background-color: white; 
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 38.65vh; 
+}
+
+.ba-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.ba-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.ba-navigation{
+    display: flex; 
+}
+
+.menu_item{
+    text-transform: uppercase;
+    padding: 0 0 0 25px;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    text-shadow: 0px 0px 35px #000;
+}
+
+a:hover,
+a:focus{
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2{
+    font-family: 'Times New Roman', serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: .7;
+    margin: 0;
+    text-shadow: 0px 0px 35px #000;
+}
+
+.banner_text_1{
+    font-size: 6.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0px 0px 35px #000;
+}
+
+.banner_button{
+    display: inline-block;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 75px; 
+    font-weight: bold;
+    transition: .3; 
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: 0.025em;
+}
+
+.banner_button:hover,
+.banner_button:focus{
+    background-color:#ffffff; 
+    color: #000;
+}
+
+.banner_text_2{
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 240px;
+    letter-spacing: 0.05em;
+    opacity: .7;
+    text-shadow: 0px 0px 35px #000;
+}
+
+
+.icons{
+    padding-top: 22.72vh;
+    padding-bottom: 22.07vh;
+}
+
+.icons_all{
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.title{
+    font-size: 1.125rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.icon_line{
+    margin: 0 0 8px 0;
+}
+
+.paragraph{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.intro{
+    background-color: #f7f7f7; 
+    position: relative; 
+}
+
+.intro_main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.paragraph_main{
+    padding-left: 115px;
+    padding-top: 181px;
+}
+
+.paragraph2{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 32px;  
+}
+
+.intro_iphone{
+    padding-top: 100px;
+}
+
+.paragraph_additional{
+    display: flex;
+    padding: 0;
+}
+
+.app{
+    padding: 0 10px 0 0;
+}
+
+.feedback_all{
+    background-image: url(../images/background.jpg);
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgb(74,57,73);
+}
+
+.face{
+    padding-top: 16vh;
+}
+
+.testimonial{
+    font-size: 1.5rem;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 2;
+    opacity: .2;
+    margin: 15px 0;
+}
+
+.feedback_person{
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-weight: lighter; 
+    opacity: .2;
+}
+
+.image_button{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 15vh; 
+}
+
+
+.menu_all{
+    position: relative;
+    text-align: center;
+}
+
+.container_menu{
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    padding-top: 10vh; 
+}
+
+.menu-list{
+    padding: 30px 0 0 0;
+}
+
+.menu-list-all{
+    display: block;
+    padding: 0;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    font-size: 0;
+}
+
+.number{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.7;
+    margin: 0;
+    padding: 70px 0 0 0;
+    letter-spacing: 0.05em;
+}
+
+.name{
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.all{
+    height: 220px;
+    display: inline-block;
+    width: 20%;
+    transition: all .1s ease-in;
+}
+
+.all:hover,
+.all:focus {
+    transition: all .1s ease-in;
+    opacity: .8;
+}
+
+.menu-list-item_1{
+    background-image: url(../images/italian.png);  
+}
+
+.menu-list-item_2{
+    background-image: url(../images/indian.png);
+}
+
+.menu-list-item_3{
+    background-image: url(../images/french.png);
+}
+
+.menu-list-item_4{
+    background-image: url(../images/steakhouse.png);
+}
+
+.menu-list-item_5{
+    background-image: url(../images/seafood.png);
+}
+
+.menu-list-item_6{
+    background-image: url(../images/sushi.png);
+}
+
+.menu-list-item_7{
+    background-image: url(../images/mexican.png);
+}
+
+.menu-list-item_8{
+    background-image: url(../images/chinese.png);
+}
+
+.menu-list-item_9{
+    background-image: url(../images/pizza.png);
+}
+
+.menu-list-item_10{
+    background-image: url(../images/american.png);
+}
+
+.information{
+    display: block;
+    margin: 50px 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.data-information{
+    display: inline-block;
+    width: 20%;
+}
+
+.data-number{
+    font-size: 2.25rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.data-text{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    margin: 0;
+}
+
+
+.footer{
+    background-color: #f7f7f7;
+    position: relative;
+    padding: 20px 0;
+}
+
+.ba-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.left-text{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    margin: 0;
+    opacity: 0.4;
+}
+
+.right-text{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.20em;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+a.footer_link{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.20em;
+    font-weight: bold;
+}
+
+a.footer_link:hover{
+    color: red;
+}
